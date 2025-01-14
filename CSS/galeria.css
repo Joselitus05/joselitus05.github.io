@@ -1,0 +1,121 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #c62828; /* Rojo */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #b71c1c; /* Rojo más oscuro */
+}
+
+header img {
+    width: 90px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #b71c1c;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: #e53935; /* Rojo brillante */
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #c62828; /* Rojo */
+    border-bottom: 2px solid #e53935; /* Rojo brillante */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Gallery styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #b71c1c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
