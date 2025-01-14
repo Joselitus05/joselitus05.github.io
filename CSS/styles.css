@@ -10,7 +10,7 @@ body {
 
 /* Header styles */
 header {
-    background: #4CAF50;
+    background: #c62828;
     color: white;
     padding: 20px;
     text-align: center;
@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #4CAF50;
+    background: #c62828;
 }
 
 /* Main content */
@@ -68,7 +68,7 @@ section {
 
 section h2 {
     color: #4CAF50;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #c62828;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -80,7 +80,7 @@ section p {
 section a {
     color: #4CAF50;
     text-decoration: none;
-    border-bottom: 1px solid #4CAF50;
+    border-bottom: 1px solid #c62828;
     transition: color 0.3s, border-color 0.3s;
 }
 
