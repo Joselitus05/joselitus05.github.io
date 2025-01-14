@@ -1,0 +1,74 @@
+/* Main content styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.consejos {
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.consejos h2 {
+    color: #c62828; /* Rojo */
+    border-bottom: 2px solid #e53935; /* Rojo brillante */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.consejos article {
+    margin-bottom: 20px;
+}
+
+.consejos h3 {
+    color: #e53935; /* Rojo brillante */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.consejos p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #e53935; /* Rojo brillante */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Footer styles */
+footer {
+    background: #b71c1c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
