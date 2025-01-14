@@ -1,0 +1,94 @@
+/* Main content */
+main {
+    padding: 40px;
+    background-color: #f4f4f4;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* Content Section Block */
+.section-block {
+    background: white;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section title styles */
+.section-block h2 {
+    color: #c62828;
+    font-size: 28px;
+    border-bottom: 3px solid #e53935;
+    padding-bottom: 12px;
+    margin-bottom: 25px;
+}
+
+.section-block h3 {
+    color: #e53935;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* General text and list */
+.section-block p, .section-block ul {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+}
+
+.section-block ul {
+    padding-left: 20px;
+}
+
+/* ODS Table */
+.ods-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.ods-item {
+    background: #ffebee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ods-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Pacto Verde Europeo */
+.pacto-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.pacto-item {
+    background: #e1f5fe;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pacto-item h3 {
+    color: #0288d1;
+}
+
+.pacto-item p {
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background: #b71c1c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+}
