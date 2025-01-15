@@ -67,7 +67,7 @@ nav ul li a:hover {
 
 /* Iconos */
 .measure h2 {
-    color: #b22222; /* Rojo oscuro */
+    color: #b22222; 
     border-bottom: 2px solid #b22222;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -79,7 +79,6 @@ nav ul li a:hover {
     margin-right: 10px;
 }
 
-/* Imágenes responsivas */
 .responsive-img {
     width: 100%;
     border-radius: 8px;
@@ -89,7 +88,7 @@ nav ul li a:hover {
 /* Footer */
 footer {
     text-align: center;
-    background: #8b0000; /* Rojo más oscuro */
+    background: #8b0000;
     color: white;
     padding: 10px 0;
     margin-top: 20px;

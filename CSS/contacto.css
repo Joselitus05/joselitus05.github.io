@@ -1,4 +1,4 @@
-/* Main content */
+
 main {
     padding: 20px;
     max-width: 800px;
@@ -24,7 +24,6 @@ section p {
     margin: 10px 0;
 }
 
-/* Form styles */
 form label {
     display: block;
     margin: 10px 0 5px;
@@ -53,7 +52,6 @@ form button:hover {
     background: #45a049;
 }
 
-/* Map styles */
 .map-container {
     margin: 20px 0;
     border: 2px solid #ccc;
