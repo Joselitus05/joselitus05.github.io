@@ -1,88 +1,51 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f9f9f9; /* Color de fondo claro */
-    color: #333;
-}
-
-/* Header styles */
-header {
-    background: #b22222; /* Rojo oscuro */
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-header img {
-    width: 80px;
-    height: auto;
-}
-
-header h1 {
-    margin: 10px 0 0;
-}
-
-/* Navigation styles */
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background: #8b0000; /* Rojo más oscuro */
-}
-
-nav ul li {
-    margin: 0;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 15px 20px;
-    display: block;
-    transition: background 0.3s ease;
-}
-
-nav ul li a:hover {
-    background: #b22222; /* Rojo oscuro */
-}
-
-/* Sección de medidas */
+/* Measure sections */
 .measure {
-    margin-bottom: 30px;
-    background: white;
+    display: flex;
+    align-items: center;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+    margin: 20px 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    gap: 20px;
 }
 
 .measure:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Iconos */
-.measure h2 {
-    color: #b22222; 
-    border-bottom: 2px solid #b22222;
-    padding-bottom: 5px;
+/* Icons */
+.measure .icon {
+    font-size: 3em;
+    color: #b22222;
+    background: #f5f5f5;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.measure:hover .icon {
+    transform: rotate(360deg) scale(1.1);
+}
+
+/* Text content */
+.text-content {
+    flex: 1;
+}
+
+.text-content h2 {
+    color: #b22222;
+    font-size: 1.8em;
     margin-bottom: 10px;
-    display: flex;
-    align-items: center;
 }
 
-.measure h2 i {
-    margin-right: 10px;
-}
-
-.responsive-img {
-    width: 100%;
-    border-radius: 8px;
-    margin-top: 10px;
+.text-content p {
+    line-height: 1.8;
+    margin: 10px 0;
+    color: #555;
 }
 
 footer {
@@ -90,5 +53,4 @@ footer {
     background: #8b0000;
     color: white;
     padding: 10px 0;
-    margin-top: 20px;
 }
